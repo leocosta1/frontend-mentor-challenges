@@ -9,3 +9,14 @@
     font-family: 'Karla', sans-serif;
 }
 
+/* Colors */
+:root {
+    --dark-cyan: #2AB2AF;
+    --light-cyan: #4ABEBD;
+    --bright-yellow: #C0DF34;
+    --light-gray: #E5EFF5;
+    --grayish-blue: #98A6BD;
+}
+
+.bright-yellow { color: var(--bright-yellow); }
+.grayish-blue { color: var(--grayish-blue); }
