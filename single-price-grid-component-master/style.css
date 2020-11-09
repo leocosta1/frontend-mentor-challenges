@@ -76,9 +76,7 @@ span {
 li {
     list-style-type: none;
     opacity: .6;
-}
-li:not(:last-child) {
-    margin-bottom: 3px;
+    line-height: 1.4;
 }
 
 button {
