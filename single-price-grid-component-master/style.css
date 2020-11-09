@@ -20,3 +20,129 @@
 
 .bright-yellow { color: var(--bright-yellow); }
 .grayish-blue { color: var(--grayish-blue); }
+
+/* -------------------------------------------------- */
+
+html,
+body {
+    min-height: 100vh;
+    background-color: var(--light-gray);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    flex: 1 0 auto;
+
+    padding: 35px;
+    color: #FFF;
+}
+
+h1 {
+    font-size: 30px;
+    color: var(--dark-cyan);
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+p {
+    font-size: 16px;
+}
+p:not(:last-child) {
+    margin-bottom: 2px;
+}
+
+strong {
+    display: flex;
+    align-items: center;
+
+    font-size: 32px;
+}
+
+span {
+    font-size: 16px;
+    font-weight: lighter;
+
+    margin-left: 10px;
+    opacity: .4;
+}
+
+li {
+    list-style-type: none;
+    opacity: .6;
+}
+li:not(:last-child) {
+    margin-bottom: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 12px 0;
+    margin-top: 36px;
+
+    background-color: var(--bright-yellow);
+    color: #FFF;
+    box-shadow: 4px 4px 16px 0 rgba(0, 0, 0, 0.3);
+
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+    opacity: 1;
+    transition: .1s ease;
+}
+button:hover {
+    opacity: .8;
+}
+
+/* -------------------------------------------------- */
+
+.card {
+    min-width: 100%;
+    background-color: #FFF;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0px 6px 32px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card .row {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-top {
+    background-color: transparent;
+}
+.card-left {
+    background-color: var(--dark-cyan);
+}
+.card-right {
+    background-color: var(--light-cyan);
+}
+
+.attribution {
+    width: 100%;
+    margin-top: 12px;
+    padding: 12px;
+
+    font-size: 16px;
+    text-align: center;
+}
+
+.attribution a {
+    color: #3E52A3;
+}
