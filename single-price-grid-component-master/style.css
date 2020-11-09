@@ -146,3 +146,14 @@ button:hover {
 .attribution a {
     color: #3E52A3;
 }
+
+/* -------------------------------------------------- */
+
+@media (max-width: 768px) {
+    body {
+        padding: 16px;
+    }
+    .card .row {
+        flex-direction: column;
+    }
+}
