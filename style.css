@@ -28,10 +28,30 @@ header {
     align-items: center;
 }
 
+footer {
+    width: 100%;
+    padding: 8px 6px;
+
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #FFF;
+
+    position: fixed;
+    bottom: 0;
+}
+footer a {
+    text-decoration: underline;
+    color: inherit
+}
+footer a:hover {
+    text-decoration: none;
+}
+
 .container {
     max-width: 1000px;
     width: 95%;
     margin: 0 auto;
+    padding-bottom: 40px;
 
     display: flex;
     flex-direction: column;
