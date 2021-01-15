@@ -62,10 +62,30 @@ header {
     border: 1px solid #CCC;
     border-radius: 5px;
 
-    flex: 0 0 225px;
+    flex: 0 0 260px;
     overflow: hidden;
 
     box-shadow: 3px 3px 15px -3px rgba(0, 0, 0, 0.3);
+}
+
+.card .card-img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.card .card-img img {
+    width: 100%;
+    height: 100%;
+
+    cursor: pointer;
+    display: block;
+    object-fit: cover;
+    transition: all .3s ease-in-out;
+}
+.card .card-img:hover img {
+    transform: scale(1.5);
 }
 
 .card-content {
@@ -74,6 +94,7 @@ header {
     align-items: center;
 
     padding: 10px 15px;
+    border-top: 1px solid #CCC;
 }
 
 .card-content a:link, .card-content a:visited {
@@ -94,4 +115,10 @@ header {
 .card-content a:hover {
     background-color: #121212;
     color: #FFF;
+}
+
+@media (max-width: 768px) {
+    .cards {
+        justify-content: center;
+    }
 }
