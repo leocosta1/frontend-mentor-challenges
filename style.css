@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
+/* CSS Reset */
 * { box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -8,6 +9,8 @@
 *, button, input {
     font-family: 'Roboto', sans-serif;
 }
+
+/* -------------------------------------------------- */
 
 html,
 body {
@@ -46,6 +49,8 @@ footer a {
 footer a:hover {
     text-decoration: none;
 }
+
+/* -------------------------------------------------- */
 
 .container {
     max-width: 1000px;
@@ -136,6 +141,8 @@ footer a:hover {
     background-color: #121212;
     color: #FFF;
 }
+
+/* -------------------------------------------------- */
 
 @media (max-width: 768px) {
     .cards {
