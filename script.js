@@ -5,6 +5,12 @@ const projectsList = [
         link: 'single-price-grid-component-master/index.html',
         section: 'newbie'
     },
+    {
+        name: 'Profile Card Component',
+        image: 'profile-card-component-main/design/desktop-design.jpg',
+        link: 'profile-card-component-main/index.html',
+        section: 'newbie'
+    }
 ];
 
 
