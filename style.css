@@ -78,7 +78,7 @@ footer a:hover {
     margin-top: 8px;
 
     display: flex;
-    gap: 20px 10px;
+    gap: 20px 25px;
     flex-wrap: wrap;
 }
 
@@ -95,8 +95,7 @@ footer a:hover {
 
 .card .card-img {
     width: 100%;
-    height: auto;
-    max-height: 200px;
+    height: 50%;
     overflow: hidden;
 }
 
@@ -114,9 +113,12 @@ footer a:hover {
 }
 
 .card-content {
+    height: 50%;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 
     padding: 10px 15px;
     border-top: 1px solid #CCC;
@@ -134,7 +136,6 @@ footer a:hover {
     text-decoration: none;
     color: #121212;
 
-    margin-top: 12px;
     padding: 10px 16px;
 }
 .card-content a:hover {
