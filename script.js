@@ -1,14 +1,14 @@
 const projectsList = [
     {
         name: 'Single Price Grid Component',
-        image: 'single-price-grid-component-master/design/desktop-design.jpg',
-        link: 'single-price-grid-component-master/index.html',
+        image: 'challenges/single-price-grid-component-master/design/desktop-design.jpg',
+        link: 'challenges/single-price-grid-component-master/index.html',
         section: 'newbie'
     },
     {
         name: 'Profile Card Component',
-        image: 'profile-card-component-main/design/desktop-design.jpg',
-        link: 'profile-card-component-main/index.html',
+        image: 'challenges/profile-card-component-main/design/desktop-design.jpg',
+        link: 'challenges/profile-card-component-main/index.html',
         section: 'newbie'
     }
 ];
