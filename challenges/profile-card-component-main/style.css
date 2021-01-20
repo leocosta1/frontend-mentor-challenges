@@ -9,7 +9,7 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
-/* Colors */
+/* Vars */
 :root {
     --dark-gray: #9696964D;
     --grayish-blue: #6A6F81;
@@ -54,7 +54,7 @@ span {
 
 .card {
     max-width: 350px;
-    width: 95%;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
@@ -148,4 +148,12 @@ span {
 }
 .attribution a {
     color: #FFF;
+}
+
+/* -------------------------------------------------- */
+
+@media (max-width: 768px) {
+    body {
+        padding: 16px;
+    }
 }

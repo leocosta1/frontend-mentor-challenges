@@ -9,7 +9,7 @@
     font-family: 'Karla', sans-serif;
 }
 
-/* Colors */
+/* Vars */
 :root {
     --dark-cyan: #2AB2AF;
     --light-cyan: #4ABEBD;
@@ -106,8 +106,10 @@ button:hover {
 /* -------------------------------------------------- */
 
 .card {
-    min-width: 100%;
+    width: 100%;
+    max-width: 600px;
     background-color: #FFF;
+
     border: none;
     border-radius: 12px;
     box-shadow: 0px 6px 32px 0 rgba(0, 0, 0, 0.2);
