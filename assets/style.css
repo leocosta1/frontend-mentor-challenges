@@ -1,0 +1,59 @@
+/* CSS Reset */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+button,
+input,
+select,
+textarea {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Variables */
+:root {
+  --bg-light: #fff;
+  --bg-dark: #333;
+
+  --txt-light: #fff;
+  --txt-dark: #222;
+
+  --clr-accent-light-blue: #6abecd;
+  --clr-accent-dark-blue: #3e54a3;
+  --clr-accent-light-green: #aad742;
+  --clr-accent-light-pink: #d26390;
+  --clr-accent-dark-pink: #ed2c49;
+  --clr-accent-light-orange: #f1b604;
+  --clr-accent-dark-orange: #f48925;
+}
+
+/* General Styles */
+html,
+body {
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+svg {
+  display: block;
+}
+
+/* ------------------------- */
