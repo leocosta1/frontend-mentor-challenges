@@ -1,0 +1,106 @@
+/* CSS Reset */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+button,
+input,
+select,
+textarea {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Variables */
+:root {
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-light-gray: hsl(212, 45%, 89%);
+  --clr-grayish-blue: hsl(220, 15%, 55%);
+  --clr-dark-blue: hsl(218, 44%, 22%);
+}
+
+/* General Styles */
+html,
+body {
+  height: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* ------------------------- */
+
+/* Layout */
+body {
+  padding: 32px;
+  background: var(--clr-light-gray);
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* QR Code Component */
+.qr-code {
+  width: min(100%, 340px);
+  margin: auto;
+  padding: 16px;
+
+  background: var(--clr-white);
+  border-radius: 18px;
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.qr-code__image {
+  width: 100%;
+  height: auto;
+
+  border-radius: 12px;
+}
+
+.qr-code__info {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  --fs-title: 24px;
+  --fs-description: 16px;
+  text-align: center;
+}
+
+.qr-code__title {
+  font-size: var(--fs-title);
+  font-weight: 700;
+  color: var(--clr-dark-blue);
+}
+
+.qr-code__description {
+  font-size: var(--fs-description);
+  font-weight: 400;
+  color: var(--clr-grayish-blue);
+
+  margin: 0 16px 32px;
+}
+
+/* Attribution */
+.attribution {
+  font-size: 14px;
+  color: var(--clr-dark-blue);
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.attribution a:hover {
+  text-decoration: none;
+}
