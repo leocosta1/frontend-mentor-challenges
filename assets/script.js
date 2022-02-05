@@ -13,7 +13,15 @@ const difficultiesList = {
   5: 'Guru',
 };
 
-const projectsList = [];
+const projectsList = [
+  {
+    title: 'QR Code Component',
+    img: 'challenges/qr-code-component-main/design/desktop-design.jpg',
+    url: 'https://leocosta1.github.io/frontend-mentor-challenges/challenges/qr-code-component-main/',
+    techs: [1, 2],
+    difficulty: 1,
+  },
+];
 
 projectsList.forEach(({ title, img, url, techs, difficulty }) => {
   const cardsContainer = document.querySelector('.main__cards');
