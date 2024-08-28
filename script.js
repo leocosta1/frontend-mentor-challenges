@@ -21,6 +21,13 @@ const projectsList = [
     techs: [1, 2],
     difficulty: 1,
   },
+  {
+    title: 'Recipe Page',
+    img: 'challenges/recipe-page-main/design/desktop-design.jpg',
+    url: 'https://leocosta1.github.io/frontend-mentor-challenges/challenges/recipe-page-main/',
+    techs: [1, 2],
+    difficulty: 1,
+  },
 ];
 
 projectsList.forEach(({ title, img, url, techs, difficulty }) => {
